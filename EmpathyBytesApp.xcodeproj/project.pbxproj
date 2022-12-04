@@ -48,7 +48,6 @@
 		B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E9D4272C8D4400729BB7 /* dickAudio.mp3 */; };
 		B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */; };
 		B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */; };
-		B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9DB272C8D6100729BB7 /* interviewView.swift */; };
 		B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */; };
 		B8B2E9E0272C8E8A00729BB7 /* marionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9DF272C8E8A00729BB7 /* marionView.swift */; };
 		B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E1272C8E9C00729BB7 /* matthewView.swift */; };
@@ -136,7 +135,6 @@
 		B8B2E9D6272C8D4700729BB7 /* empathyApp_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = empathyApp_header.h; sourceTree = "<group>"; };
 		B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = empathyAppApp.swift; sourceTree = "<group>"; };
 		B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = georgiaView.swift; sourceTree = "<group>"; };
-		B8B2E9DB272C8D6100729BB7 /* interviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interviewView.swift; sourceTree = "<group>"; };
 		B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marionAudio.mp3; sourceTree = "<group>"; };
 		B8B2E9DF272C8E8A00729BB7 /* marionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = marionView.swift; sourceTree = "<group>"; };
 		B8B2E9E1272C8E9C00729BB7 /* matthewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = matthewView.swift; sourceTree = "<group>"; };
@@ -322,7 +320,6 @@
 		BC63288F2921DD6100AE3355 /* InterviewComponent */ = {
 			isa = PBXGroup;
 			children = (
-				B8B2E9DB272C8D6100729BB7 /* interviewView.swift */,
 				7AA544CB280235D80066594F /* emaadView.swift */,
 				7AA544F02804F3E00066594F /* samahView.swift */,
 				7AA544F42804F47D0066594F /* sheleahView.swift */,
@@ -547,7 +544,6 @@
 				7AA544CC280235D80066594F /* emaadView.swift in Sources */,
 				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
 				BCC61AEB293C210600A50AF1 /* interviewMenuView.swift in Sources */,
-				B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */,
 				BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */,
 				7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */,
 				BCC61AF7293C2F6F00A50AF1 /* fall2019InterviewsView.swift in Sources */,
