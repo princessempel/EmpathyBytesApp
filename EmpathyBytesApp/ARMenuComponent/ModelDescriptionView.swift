@@ -28,17 +28,11 @@ struct ModelDescriptionView: View {
             Spacer()
             NavigationLink(destination: ARModelView(modelTitle:modelEntity.$imageName )) {
                 Text("See Model!")
-                    .fontWeight(.bold)
-                    .font(.custom("Georgia", size: 25))
-                    .padding()
-                    .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
-                    .cornerRadius(40)
+                    .frame(width: 200, height: 50)
+                    .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
                     .foregroundColor(.white)
-                    .padding(10)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 40)
-                            .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
-                    )
+                    .font(.system(size: 18, weight: .medium, design: .default))
+                    .cornerRadius(15)
             }
             
         }

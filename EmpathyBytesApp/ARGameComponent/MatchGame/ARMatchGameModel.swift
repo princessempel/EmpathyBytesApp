@@ -18,7 +18,7 @@ class ARMatchGameModel: UIViewController {
     var gameObjects : [RealityKit.ModelEntity] = []
     var arObjects : [MatchingGameObject] = []
     var objectFound : [String] = []
-    var anchor: AnchorEntity = AnchorEntity(plane: .horizontal,minimumBounds: [0.2,0.2])
+    var anchor: AnchorEntity = AnchorEntity()
     var cards: [Entity] = []
     var numOfGuesses : Int = 0
 

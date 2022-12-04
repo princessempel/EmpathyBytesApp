@@ -24,17 +24,17 @@ struct cardView: View {
                 HStack {
                     VStack(alignment: .leading) {
                         Text(category)
-                            .font(.custom("Georgia", size: 25))
+                            .font(.system(size: 25, weight: .light, design: .default))
                             .font(.headline)
                             .foregroundColor(.secondary)
                         Text(heading)
-                            .font(.custom("Georgia", size: 25))
+                            .font(.system(size: 25, weight: .regular, design: .default))
                             .font(.title)
                             .fontWeight(.black)
                             .foregroundColor(.primary)
                             .lineLimit(3)
                         Text(author)
-                            .font(.custom("Georgia", size: 25))
+                            .font(.system(size: 25, weight: .light, design: .default))
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
