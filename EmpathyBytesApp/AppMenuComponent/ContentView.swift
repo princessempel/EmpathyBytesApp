@@ -47,6 +47,14 @@ struct ContentView: View {
                                 )
                              */
                         }
+                        NavigationLink(destination: ARPage()) {
+                            Text("Augmented Reality")
+                                .frame(width: 200, height: 50)
+                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
+                                .foregroundColor(.white)
+                                .font(.system(size: 18, weight: .medium, design: .default))
+                                .cornerRadius(15)
+                        }
                         NavigationLink(destination: AboutUs()) {
                             Text("About Us")
                                 .frame(width: 200, height: 50)
@@ -55,15 +63,6 @@ struct ContentView: View {
                                 .font(.system(size: 18, weight: .medium, design: .default))
                                 .cornerRadius(15)
                         }
-                        NavigationLink(destination: ARPage()) {
-                            Text("AR")
-                                .frame(width: 200, height: 50)
-                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
-                                .foregroundColor(.white)
-                                .font(.system(size: 18, weight: .medium, design: .default))
-                                .cornerRadius(15)
-                        }
-                        
                     }
                 }
         
