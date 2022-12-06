@@ -69,7 +69,7 @@ class ARMenu : UIViewController{
 extension ARMenu : UITableViewDataSource, UITableViewDelegate {
     /** returns number of rows in tableview */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        return 9
     }
     
     /** Dequeue a cell and return it */
@@ -119,10 +119,16 @@ extension ARMenu {
         let model7 = ModelEntity(imageName: ImageConstants.studioStand, title: ImageConstants.studioStandTitle, description: ImageConstants.studioStandDescription)
         let model8 = ModelEntity(imageName: ImageConstants.mechanicalKeyboard, title:
             ImageConstants.mechanicalKeyboardTitle, description:ImageConstants.mechanicalKeyboardDescription)
-        return [model1,model2,model3,model4,model5,model6,model7,model8]
+        let model9 = ModelEntity(imageName: ImageConstants.olympicTorch , title: ImageConstants.olympicTorchTitle, description: ImageConstants.olympicTorchDescription)
+        let model10 = ModelEntity(imageName: ImageConstants.whistle , title: ImageConstants.whistleTitle, description: ImageConstants.whistleDescription)
+        let model11 = ModelEntity(imageName: ImageConstants.trophy , title: ImageConstants.trophyTitle, description: ImageConstants.trophyDescription)
+        let model12 = ModelEntity(imageName: ImageConstants.ratcap , title: ImageConstants.ratcapTitle, description: ImageConstants.ratcapDescription)
+        return [model9,model10, model11, model12, model1, model2, model3, model4, model5, model6, model7, model8]
     }
     
 }
+
+
 
 /*
 func configureTitleConstrains() {

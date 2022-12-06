@@ -17,7 +17,7 @@ struct ARPage: View {
                 .lineLimit(2)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
-            Text("Makerspace")
+            Text("Models")
                 .font(.title2)
                 .fontWeight(.bold)
                 .lineLimit(2)
@@ -25,7 +25,7 @@ struct ARPage: View {
                 .padding(.horizontal)
             HStack(spacing:20) {
                 NavigationLink(destination: ARMenuView()) {
-                    Text("Gallery")
+                    Text("AR Model Gallery")
                         .fontWeight(.bold)
                         .font(.custom("Georgia", size: 25))
                         .padding()
@@ -38,6 +38,20 @@ struct ARPage: View {
                                 .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
                         )
                 }
+//                NavigationLink(destination: ARArchiveView()) {
+//                    Text("Archives Gallery")
+//                        .fontWeight(.bold)
+//                        .font(.custom("Georgia", size: 25))
+//                        .padding()
+//                        .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+//                        .cornerRadius(40)
+//                        .foregroundColor(.white)
+//                        .padding(10)
+//                        .overlay(
+//                            RoundedRectangle(cornerRadius: 40)
+//                                .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+//                        )
+//                }
                 NavigationLink(destination: ARGameMenu()) {
                     Text("Game")
                         .fontWeight(.bold)

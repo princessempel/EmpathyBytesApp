@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1D328837275A9905009F4553 /* StudioStand.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1D328836275A9905009F4553 /* StudioStand.usdz */; };
+		7A32440E291EC45200CABD15 /* amitJariwalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32440D291EC45200CABD15 /* amitJariwalaView.swift */; };
+		7A324416291EC48B00CABD15 /* daneWryeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A324415291EC48B00CABD15 /* daneWryeView.swift */; };
+		7A32441A291EC70D00CABD15 /* alysonLamAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A324417291EC70C00CABD15 /* alysonLamAudio.mp3 */; };
+		7A32441B291EC70D00CABD15 /* amitJariwalaAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A324418291EC70C00CABD15 /* amitJariwalaAudio.mp3 */; };
+		7A32441C291EC70D00CABD15 /* daneWryeAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A324419291EC70D00CABD15 /* daneWryeAudio.mp3 */; };
+		7A324421291EC8FB00CABD15 /* ARMatchGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32441D291EC8FA00CABD15 /* ARMatchGameModel.swift */; };
+		7A324422291EC8FB00CABD15 /* ARGameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32441E291EC8FA00CABD15 /* ARGameObject.swift */; };
+		7A324423291EC8FB00CABD15 /* MatchingGameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32441F291EC8FA00CABD15 /* MatchingGameObject.swift */; };
+		7A324424291EC8FB00CABD15 /* ARMatchGameModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A324420291EC8FB00CABD15 /* ARMatchGameModelView.swift */; };
+		7A324426291ECAA100CABD15 /* OlympicTorch.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A324425291ECAA100CABD15 /* OlympicTorch.usdz */; };
+		7A32442B291ECEFD00CABD15 /* ARArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32442A291ECEFD00CABD15 /* ARArchiveView.swift */; };
+		7A32442D291ECF6300CABD15 /* ARArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32442C291ECF6300CABD15 /* ARArchive.swift */; };
 		7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C32754029100501F5D /* CNCControlPanel.usdz */; };
 		7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C5275402A000501F5D /* Skateboard.usdz */; };
 		7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C6275402A000501F5D /* ToyAirplane.usdz */; };
@@ -20,13 +32,12 @@
 		7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B327515D84002947A2 /* ImageConstants.swift */; };
 		7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B527515D89002947A2 /* ModelDescriptionView.swift */; };
 		7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B727515D8E002947A2 /* ModelEntity.swift */; };
+		7A9FABD3293ED6B5002F8D28 /* Whistle_Fixed.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABD2293ED6B4002F8D28 /* Whistle_Fixed.usdz */; };
+		7A9FABD5293ED6BC002F8D28 /* ratcap.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABD4293ED6BB002F8D28 /* ratcap.usdz */; };
+		7A9FABD7293ED6C4002F8D28 /* GTartifactTrophy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABD6293ED6C4002F8D28 /* GTartifactTrophy.usdz */; };
 		7AA544CC280235D80066594F /* emaadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CB280235D80066594F /* emaadView.swift */; };
 		7AA544CE280237110066594F /* abiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CD280237110066594F /* abiView.swift */; };
 		7AA544D02802378B0066594F /* joelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CF2802378B0066594F /* joelView.swift */; };
-		7AA544E92804F1030066594F /* ARGameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E42804F1020066594F /* ARGameMenuView.swift */; };
-		7AA544EA2804F1030066594F /* ARMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E52804F1020066594F /* ARMatchingGame.swift */; };
-		7AA544EB2804F1030066594F /* GameMenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */; };
-		7AA544EC2804F1030066594F /* SkateboardMatching.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544E72804F1030066594F /* SkateboardMatching.usdz */; };
 		7AA544ED2804F1030066594F /* ARGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E82804F1030066594F /* ARGameMenu.swift */; };
 		7AA544EF2804F1100066594F /* ARPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544EE2804F1100066594F /* ARPage.swift */; };
 		7AA544F12804F3E10066594F /* samahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544F02804F3E00066594F /* samahView.swift */; };
@@ -61,11 +72,6 @@
 		B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */; };
 		B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E9272C8EAE00729BB7 /* Utility.swift */; };
 		BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B262814A2FF00145F91 /* alysonLamView.swift */; };
-		BCA81B2D2814A5FD00145F91 /* amitJariwalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */; };
-		BCA81B2E2814A5FD00145F91 /* amitJariwalaAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */; };
-		BCA81B2F2814A5FD00145F91 /* daneWryeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */; };
-		BCA81B302814A5FD00145F91 /* alysonLamAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */; };
-		BCA81B312814A5FD00145F91 /* daneWryeAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */; };
 		C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */; };
 		C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */; };
 /* End PBXBuildFile section */
@@ -89,6 +95,18 @@
 
 /* Begin PBXFileReference section */
 		1D328836275A9905009F4553 /* StudioStand.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StudioStand.usdz; sourceTree = "<group>"; };
+		7A32440D291EC45200CABD15 /* amitJariwalaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = amitJariwalaView.swift; sourceTree = "<group>"; };
+		7A324415291EC48B00CABD15 /* daneWryeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = daneWryeView.swift; sourceTree = "<group>"; };
+		7A324417291EC70C00CABD15 /* alysonLamAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alysonLamAudio.mp3; sourceTree = "<group>"; };
+		7A324418291EC70C00CABD15 /* amitJariwalaAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amitJariwalaAudio.mp3; sourceTree = "<group>"; };
+		7A324419291EC70D00CABD15 /* daneWryeAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daneWryeAudio.mp3; sourceTree = "<group>"; };
+		7A32441D291EC8FA00CABD15 /* ARMatchGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMatchGameModel.swift; sourceTree = "<group>"; };
+		7A32441E291EC8FA00CABD15 /* ARGameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGameObject.swift; sourceTree = "<group>"; };
+		7A32441F291EC8FA00CABD15 /* MatchingGameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingGameObject.swift; sourceTree = "<group>"; };
+		7A324420291EC8FB00CABD15 /* ARMatchGameModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMatchGameModelView.swift; sourceTree = "<group>"; };
+		7A324425291ECAA100CABD15 /* OlympicTorch.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OlympicTorch.usdz; sourceTree = "<group>"; };
+		7A32442A291ECEFD00CABD15 /* ARArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARArchiveView.swift; sourceTree = "<group>"; };
+		7A32442C291ECF6300CABD15 /* ARArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARArchive.swift; sourceTree = "<group>"; };
 		7A4025C32754029100501F5D /* CNCControlPanel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CNCControlPanel.usdz; sourceTree = "<group>"; };
 		7A4025C5275402A000501F5D /* Skateboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skateboard.usdz; sourceTree = "<group>"; };
 		7A4025C6275402A000501F5D /* ToyAirplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyAirplane.usdz; sourceTree = "<group>"; };
@@ -101,14 +119,13 @@
 		7A4561B327515D84002947A2 /* ImageConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		7A4561B527515D89002947A2 /* ModelDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionView.swift; sourceTree = "<group>"; };
 		7A4561B727515D8E002947A2 /* ModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
+		7A9FABD2293ED6B4002F8D28 /* Whistle_Fixed.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Whistle_Fixed.usdz; sourceTree = "<group>"; };
+		7A9FABD4293ED6BB002F8D28 /* ratcap.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ratcap.usdz; sourceTree = "<group>"; };
+		7A9FABD6293ED6C4002F8D28 /* GTartifactTrophy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = GTartifactTrophy.usdz; sourceTree = "<group>"; };
 		7AA3E1D4275A817600B7549F /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		7AA544CB280235D80066594F /* emaadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = emaadView.swift; path = EmpathyBytesApp/emaadView.swift; sourceTree = SOURCE_ROOT; };
 		7AA544CD280237110066594F /* abiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abiView.swift; sourceTree = "<group>"; };
 		7AA544CF2802378B0066594F /* joelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joelView.swift; sourceTree = "<group>"; };
-		7AA544E42804F1020066594F /* ARGameMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGameMenuView.swift; sourceTree = "<group>"; };
-		7AA544E52804F1020066594F /* ARMatchingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMatchingGame.swift; sourceTree = "<group>"; };
-		7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMenuStoryboard.storyboard; sourceTree = "<group>"; };
-		7AA544E72804F1030066594F /* SkateboardMatching.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SkateboardMatching.usdz; sourceTree = "<group>"; };
 		7AA544E82804F1030066594F /* ARGameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGameMenu.swift; sourceTree = "<group>"; };
 		7AA544EE2804F1100066594F /* ARPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPage.swift; sourceTree = "<group>"; };
 		7AA544F02804F3E00066594F /* samahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samahView.swift; sourceTree = "<group>"; };
@@ -147,11 +164,6 @@
 		B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUIVideoPlayer.swift; sourceTree = "<group>"; };
 		B8B2E9E9272C8EAE00729BB7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		BCA81B262814A2FF00145F91 /* alysonLamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alysonLamView.swift; sourceTree = "<group>"; };
-		BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = amitJariwalaView.swift; path = "../../../../Desktop/VIP Stuff/amitJariwalaView.swift"; sourceTree = "<group>"; };
-		BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amitJariwalaAudio.mp3; path = "../../../../Desktop/VIP Stuff/amitJariwalaAudio.mp3"; sourceTree = "<group>"; };
-		BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = daneWryeView.swift; path = "../../../../Desktop/VIP Stuff/daneWryeView.swift"; sourceTree = "<group>"; };
-		BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alysonLamAudio.mp3; path = "../../../../Desktop/VIP Stuff/alysonLamAudio.mp3"; sourceTree = "<group>"; };
-		BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daneWryeAudio.mp3; path = "../../../../Desktop/VIP Stuff/daneWryeAudio.mp3"; sourceTree = "<group>"; };
 		C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MechanicalKeyboard.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +193,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A324429291ECEDC00CABD15 /* ARArchiveComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7A32442C291ECF6300CABD15 /* ARArchive.swift */,
+				7A32442A291ECEFD00CABD15 /* ARArchiveView.swift */,
+			);
+			path = ARArchiveComponent;
+			sourceTree = "<group>";
+		};
+		7A32442F291ED19A00CABD15 /* ARTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B8B2E9CA272C8D1F00729BB7 /* ARViewStoryboard.storyboard */,
+				B8B2E9CC272C8D2400729BB7 /* CustomTableViewCell.swift */,
+				7A4561B327515D84002947A2 /* ImageConstants.swift */,
+				7A4561B527515D89002947A2 /* ModelDescriptionView.swift */,
+				7A4561B727515D8E002947A2 /* ModelEntity.swift */,
+				B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */,
+				7A324429291ECEDC00CABD15 /* ARArchiveComponent */,
+			);
+			path = ARTableView;
+			sourceTree = "<group>";
+		};
 		7A4025C22754022D00501F5D /* ARModelComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,12 +224,17 @@
 				7A4025C7275402A000501F5D /* ARModelView.swift */,
 				7A4025D1275402F400501F5D /* ARModel.swift */,
 				7A4025C8275402A200501F5D /* ChristmasTree.usdz */,
+				7A324425291ECAA100CABD15 /* OlympicTorch.usdz */,
 				7A4025D3275405C700501F5D /* Main.storyboard */,
 				7A4025C9275402A300501F5D /* FlowerPot.usdz */,
+				7A9FABD6293ED6C4002F8D28 /* GTartifactTrophy.usdz */,
+				7A9FABD2293ED6B4002F8D28 /* Whistle_Fixed.usdz */,
 				7AA3E1D4275A817600B7549F /* WoodenTable.usdz */,
+				7A9FABD4293ED6BB002F8D28 /* ratcap.usdz */,
 				1D328836275A9905009F4553 /* StudioStand.usdz */,
 				7A4025C5275402A000501F5D /* Skateboard.usdz */,
 				7A4025C6275402A000501F5D /* ToyAirplane.usdz */,
+				7A32442F291ED19A00CABD15 /* ARTableView */,
 			);
 			path = ARModelComponent;
 			sourceTree = "<group>";
@@ -211,10 +251,10 @@
 			isa = PBXGroup;
 			children = (
 				7AA544E82804F1030066594F /* ARGameMenu.swift */,
-				7AA544E42804F1020066594F /* ARGameMenuView.swift */,
-				7AA544E52804F1020066594F /* ARMatchingGame.swift */,
-				7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */,
-				7AA544E72804F1030066594F /* SkateboardMatching.usdz */,
+				7A32441E291EC8FA00CABD15 /* ARGameObject.swift */,
+				7A32441D291EC8FA00CABD15 /* ARMatchGameModel.swift */,
+				7A324420291EC8FB00CABD15 /* ARMatchGameModelView.swift */,
+				7A32441F291EC8FA00CABD15 /* MatchingGameObject.swift */,
 			);
 			path = ARGameComponent;
 			sourceTree = "<group>";
@@ -251,22 +291,21 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
-				BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */,
-				BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */,
-				BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */,
-				BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */,
-				BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */,
-				BCA81B262814A2FF00145F91 /* alysonLamView.swift */,
 				7AA544E32804F0E60066594F /* ARPageComponent */,
 				7AA544E12804F0C50066594F /* ARGameComponent */,
 				7A4025C22754022D00501F5D /* ARModelComponent */,
-				B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */,
 				B8B2E995272C8AC800729BB7 /* AppDelegate.swift */,
+				BCA81B262814A2FF00145F91 /* alysonLamView.swift */,
+				7A324417291EC70C00CABD15 /* alysonLamAudio.mp3 */,
+				7A324418291EC70C00CABD15 /* amitJariwalaAudio.mp3 */,
+				7A324419291EC70D00CABD15 /* daneWryeAudio.mp3 */,
+				7A32440D291EC45200CABD15 /* amitJariwalaView.swift */,
 				B8B2E9CE272C8D3000729BB7 /* cardView.swift */,
 				B8B2E9D0272C8D3500729BB7 /* CircleImage.swift */,
 				B8B2E9D2272C8D3D00729BB7 /* ContentView.swift */,
 				B8B2E9D4272C8D4400729BB7 /* dickAudio.mp3 */,
 				7A4561B127515D36002947A2 /* AboutUs.swift */,
+				7A324415291EC48B00CABD15 /* daneWryeView.swift */,
 				B8B2E9D6272C8D4700729BB7 /* empathyApp_header.h */,
 				B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */,
 				7AA544CB280235D80066594F /* emaadView.swift */,
@@ -324,11 +363,6 @@
 			children = (
 				B8B2E9C5272C8CE600729BB7 /* ARMenu.swift */,
 				B8B2E9C8272C8D1400729BB7 /* ARMenuView.swift */,
-				B8B2E9CA272C8D1F00729BB7 /* ARViewStoryboard.storyboard */,
-				B8B2E9CC272C8D2400729BB7 /* CustomTableViewCell.swift */,
-				7A4561B327515D84002947A2 /* ImageConstants.swift */,
-				7A4561B527515D89002947A2 /* ModelDescriptionView.swift */,
-				7A4561B727515D8E002947A2 /* ModelEntity.swift */,
 			);
 			path = ARMenuComponent;
 			sourceTree = "<group>";
@@ -438,28 +472,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
-				BCA81B312814A5FD00145F91 /* daneWryeAudio.mp3 in Resources */,
+				7A32441C291EC70D00CABD15 /* daneWryeAudio.mp3 in Resources */,
 				7AA544FC2804F6250066594F /* emaadShamsi.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
-				7AA544EC2804F1030066594F /* SkateboardMatching.usdz in Resources */,
+				7A32441B291EC70D00CABD15 /* amitJariwalaAudio.mp3 in Resources */,
 				1D328837275A9905009F4553 /* StudioStand.usdz in Resources */,
-				7AA544EB2804F1030066594F /* GameMenuStoryboard.storyboard in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
+				7A9FABD7293ED6C4002F8D28 /* GTartifactTrophy.usdz in Resources */,
 				C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */,
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
-				BCA81B302814A5FD00145F91 /* alysonLamAudio.mp3 in Resources */,
 				7AA544FB2804F6250066594F /* joelAudio.mp3 in Resources */,
 				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
-				BCA81B2E2814A5FD00145F91 /* amitJariwalaAudio.mp3 in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
 				C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */,
+				7A32441A291EC70D00CABD15 /* alysonLamAudio.mp3 in Resources */,
 				7AA544FD2804F6250066594F /* abiAudio.mp3 in Resources */,
+				7A9FABD5293ED6BC002F8D28 /* ratcap.usdz in Resources */,
 				7AA544FA2804F6250066594F /* placeholder.mp3 in Resources */,
 				7A4025CF275402A300501F5D /* FlowerPot.usdz in Resources */,
+				7A324426291ECAA100CABD15 /* OlympicTorch.usdz in Resources */,
 				B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */,
+				7A9FABD3293ED6B5002F8D28 /* Whistle_Fixed.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,16 +520,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA81B2D2814A5FD00145F91 /* amitJariwalaView.swift in Sources */,
 				B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */,
+				7A32442D291ECF6300CABD15 /* ARArchive.swift in Sources */,
 				7AA544F52804F47D0066594F /* sheleahView.swift in Sources */,
+				7A324422291EC8FB00CABD15 /* ARGameObject.swift in Sources */,
 				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
-				BCA81B2F2814A5FD00145F91 /* daneWryeView.swift in Sources */,
+				7A324416291EC48B00CABD15 /* daneWryeView.swift in Sources */,
 				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
 				7A4561B227515D37002947A2 /* AboutUs.swift in Sources */,
+				7A324423291EC8FB00CABD15 /* MatchingGameObject.swift in Sources */,
+				7A324421291EC8FB00CABD15 /* ARMatchGameModel.swift in Sources */,
 				B8B2E9CD272C8D2400729BB7 /* CustomTableViewCell.swift in Sources */,
 				7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */,
 				B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */,
+				7A32440E291EC45200CABD15 /* amitJariwalaView.swift in Sources */,
 				7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */,
 				B8B2E9D1272C8D3500729BB7 /* CircleImage.swift in Sources */,
 				B8B2E9E0272C8E8A00729BB7 /* marionView.swift in Sources */,
@@ -503,6 +543,7 @@
 				7AA544EF2804F1100066594F /* ARPage.swift in Sources */,
 				B8B2E9E4272C8EA100729BB7 /* MusicView.swift in Sources */,
 				7AA544CC280235D80066594F /* emaadView.swift in Sources */,
+				7A32442B291ECEFD00CABD15 /* ARArchiveView.swift in Sources */,
 				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
 				B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */,
 				BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */,
@@ -510,15 +551,14 @@
 				B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */,
 				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,
 				B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */,
-				7AA544E92804F1030066594F /* ARGameMenuView.swift in Sources */,
 				7AA544ED2804F1030066594F /* ARGameMenu.swift in Sources */,
 				B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */,
 				7A4025D2275402F400501F5D /* ARModel.swift in Sources */,
 				B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */,
 				7AA544CE280237110066594F /* abiView.swift in Sources */,
 				7A4025CD275402A300501F5D /* ARModelView.swift in Sources */,
-				7AA544EA2804F1030066594F /* ARMatchingGame.swift in Sources */,
 				7AA544F12804F3E10066594F /* samahView.swift in Sources */,
+				7A324424291EC8FB00CABD15 /* ARMatchGameModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = RY3CZHH244;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -695,7 +735,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = harshee.EmpathyBytesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = nivi.EmpathyBytesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -711,7 +751,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = RY3CZHH244;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -727,7 +767,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = harshee.EmpathyBytesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = nivi.EmpathyBytesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
