@@ -20,6 +20,10 @@
 		7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B327515D84002947A2 /* ImageConstants.swift */; };
 		7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B527515D89002947A2 /* ModelDescriptionView.swift */; };
 		7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B727515D8E002947A2 /* ModelEntity.swift */; };
+		7A9FABDC293EEF1A002F8D28 /* Whistle_Fixed.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABD8293EEF1A002F8D28 /* Whistle_Fixed.usdz */; };
+		7A9FABDD293EEF1A002F8D28 /* GTartifactTrophy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABD9293EEF1A002F8D28 /* GTartifactTrophy.usdz */; };
+		7A9FABDE293EEF1A002F8D28 /* OlympicTorch.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABDA293EEF1A002F8D28 /* OlympicTorch.usdz */; };
+		7A9FABDF293EEF1A002F8D28 /* ratcap.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FABDB293EEF1A002F8D28 /* ratcap.usdz */; };
 		7AA544CC280235D80066594F /* emaadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CB280235D80066594F /* emaadView.swift */; };
 		7AA544CE280237110066594F /* abiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CD280237110066594F /* abiView.swift */; };
 		7AA544D02802378B0066594F /* joelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CF2802378B0066594F /* joelView.swift */; };
@@ -102,6 +106,10 @@
 		7A4561B327515D84002947A2 /* ImageConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		7A4561B527515D89002947A2 /* ModelDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionView.swift; sourceTree = "<group>"; };
 		7A4561B727515D8E002947A2 /* ModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
+		7A9FABD8293EEF1A002F8D28 /* Whistle_Fixed.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Whistle_Fixed.usdz; sourceTree = "<group>"; };
+		7A9FABD9293EEF1A002F8D28 /* GTartifactTrophy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = GTartifactTrophy.usdz; sourceTree = "<group>"; };
+		7A9FABDA293EEF1A002F8D28 /* OlympicTorch.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OlympicTorch.usdz; sourceTree = "<group>"; };
+		7A9FABDB293EEF1A002F8D28 /* ratcap.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ratcap.usdz; sourceTree = "<group>"; };
 		7AA3E1D4275A817600B7549F /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		7AA544CB280235D80066594F /* emaadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = emaadView.swift; path = EmpathyBytesApp/InterviewComponent/emaadView.swift; sourceTree = SOURCE_ROOT; };
 		7AA544CD280237110066594F /* abiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abiView.swift; sourceTree = "<group>"; };
@@ -195,6 +203,10 @@
 				7A4025D1275402F400501F5D /* ARModel.swift */,
 				7A4025C8275402A200501F5D /* ChristmasTree.usdz */,
 				7A4025D3275405C700501F5D /* Main.storyboard */,
+				7A9FABD9293EEF1A002F8D28 /* GTartifactTrophy.usdz */,
+				7A9FABDA293EEF1A002F8D28 /* OlympicTorch.usdz */,
+				7A9FABDB293EEF1A002F8D28 /* ratcap.usdz */,
+				7A9FABD8293EEF1A002F8D28 /* Whistle_Fixed.usdz */,
 				7A4025C9275402A300501F5D /* FlowerPot.usdz */,
 				7AA3E1D4275A817600B7549F /* WoodenTable.usdz */,
 				1D328836275A9905009F4553 /* StudioStand.usdz */,
@@ -481,15 +493,19 @@
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
 				7AA544FC2804F6250066594F /* emaadShamsi.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
+				7A9FABDC293EEF1A002F8D28 /* Whistle_Fixed.usdz in Resources */,
 				1D328837275A9905009F4553 /* StudioStand.usdz in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
 				C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */,
+				7A9FABDF293EEF1A002F8D28 /* ratcap.usdz in Resources */,
+				7A9FABDD293EEF1A002F8D28 /* GTartifactTrophy.usdz in Resources */,
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
 				7AA544FB2804F6250066594F /* joelAudio.mp3 in Resources */,
 				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
+				7A9FABDE293EEF1A002F8D28 /* OlympicTorch.usdz in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
 				C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */,
 				7AA544FD2804F6250066594F /* abiAudio.mp3 in Resources */,

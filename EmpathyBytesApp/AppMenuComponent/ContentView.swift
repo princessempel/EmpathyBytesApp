@@ -32,20 +32,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .font(.system(size: 18, weight: .medium, design: .default))
                                 .cornerRadius(15)
-                            /*
-                            Text("Interviews")
-                                .fontWeight(.bold)
-                                .font(.custom("Georgia", size: 25))
-                                .padding()
-                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
-                                .cornerRadius(40)
-                                .foregroundColor(.white)
-                                .padding(10)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 40)
-                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
-                                )
-                             */
+
                         }
                         NavigationLink(destination: ARPage()) {
                             Text("Augmented Reality")
@@ -64,6 +51,9 @@ struct ContentView: View {
                                 .cornerRadius(15)
                         }
                     }
+                    .background(LinearGradient(
+                        colors: [.init(red: 249/255, green: 246/255, blue: 231/255), .init(red: 249/255, green: 246/255, blue: 231/255)],
+                        startPoint: .top, endPoint: .bottom))
                 }
         
        

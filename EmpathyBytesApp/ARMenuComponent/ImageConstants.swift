@@ -40,4 +40,20 @@ struct ImageConstants {
     static let mechanicalKeyboard = "MechanicalKeyboard";
     static let mechanicalKeyboardTitle = "Mechanical Keyboard";
     static let mechanicalKeyboardDescription = "Mechanical keyboards are all the rage in enthusiast circles, and some Georgia Tech students have utilized the makerspace to fabricate their very own keyboards from scratch. Tech students make in-house mechanical keyboards by 3D-printing frames, keycaps, and other components easily found online. This keyboard is one of many free-to-use models available online to print from, making it very easy for creators to collaborate and share project components. Georgia Tech even has its own mechanical keyboard club on campus!";
+    
+    static let olympicTorch = "OlympicTorch";
+    static let olympicTorchTitle = "Olympic Torch";
+    static let olympicTorchDescription = "In the archives, we have an olympic torch!";
+    
+    static let trophy = "GTartifactTrophy";
+    static let trophyTitle = "GT Trophy";
+    static let trophyDescription = "Here is a trophy from the GT Archives!";
+    
+    static let whistle = "Whistle_Fixed";
+    static let whistleTitle = "GT Whistle";
+    static let whistleDescription = "This is the original GT Whistle!";
+    
+    static let ratcap = "ratcap";
+    static let ratcapTitle = "Antique GT Ratcap";
+    static let ratcapDescription = "This is an old GT Ratcap!";
 }

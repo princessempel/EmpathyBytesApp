@@ -110,17 +110,21 @@ extension ARMenu : UITableViewDataSource, UITableViewDelegate {
 extension ARMenu {
     /** Creates models objects with name and image */
     func fetchData() -> [ModelEntity] {
-        let model1 = ModelEntity(imageName: ImageConstants.toyAirplane , title: ImageConstants.toyAirplaneTitle, description: ImageConstants.toyAirplaneDescription)
-        let model2 = ModelEntity(imageName: ImageConstants.skateboard, title: ImageConstants.skateboardTitle, description: ImageConstants.skateboardDescription)
-        let model3 = ModelEntity(imageName: ImageConstants.cncControlPanel, title: ImageConstants.cncControlPanelTitle, description: ImageConstants.cncControlPanelDescription)
-        let model4 = ModelEntity(imageName: ImageConstants.flowerPot, title: ImageConstants.flowerPotTitle, description: ImageConstants.flowerPotDescription)
-        let model5 = ModelEntity(imageName: ImageConstants.christmasTree, title: ImageConstants.christmasTreeTitle, description: ImageConstants.christmasTreeDescription)
-        let model6 = ModelEntity(imageName: ImageConstants.woodenTable, title: ImageConstants.woodenTableTitle, description: ImageConstants.woodenTableDescription)
-        let model7 = ModelEntity(imageName: ImageConstants.studioStand, title: ImageConstants.studioStandTitle, description: ImageConstants.studioStandDescription)
-        let model8 = ModelEntity(imageName: ImageConstants.mechanicalKeyboard, title:
-            ImageConstants.mechanicalKeyboardTitle, description:ImageConstants.mechanicalKeyboardDescription)
-        return [model1,model2,model3,model4,model5,model6,model7,model8]
-    }
+            let model1 = ModelEntity(imageName: ImageConstants.toyAirplane , title: ImageConstants.toyAirplaneTitle, description: ImageConstants.toyAirplaneDescription)
+            let model2 = ModelEntity(imageName: ImageConstants.skateboard, title: ImageConstants.skateboardTitle, description: ImageConstants.skateboardDescription)
+            let model3 = ModelEntity(imageName: ImageConstants.cncControlPanel, title: ImageConstants.cncControlPanelTitle, description: ImageConstants.cncControlPanelDescription)
+            let model4 = ModelEntity(imageName: ImageConstants.flowerPot, title: ImageConstants.flowerPotTitle, description: ImageConstants.flowerPotDescription)
+            let model5 = ModelEntity(imageName: ImageConstants.christmasTree, title: ImageConstants.christmasTreeTitle, description: ImageConstants.christmasTreeDescription)
+            let model6 = ModelEntity(imageName: ImageConstants.woodenTable, title: ImageConstants.woodenTableTitle, description: ImageConstants.woodenTableDescription)
+            let model7 = ModelEntity(imageName: ImageConstants.studioStand, title: ImageConstants.studioStandTitle, description: ImageConstants.studioStandDescription)
+            let model8 = ModelEntity(imageName: ImageConstants.mechanicalKeyboard, title:
+                ImageConstants.mechanicalKeyboardTitle, description:ImageConstants.mechanicalKeyboardDescription)
+            let model9 = ModelEntity(imageName: ImageConstants.olympicTorch , title: ImageConstants.olympicTorchTitle, description: ImageConstants.olympicTorchDescription)
+            let model10 = ModelEntity(imageName: ImageConstants.whistle , title: ImageConstants.whistleTitle, description: ImageConstants.whistleDescription)
+            let model11 = ModelEntity(imageName: ImageConstants.trophy , title: ImageConstants.trophyTitle, description: ImageConstants.trophyDescription)
+            let model12 = ModelEntity(imageName: ImageConstants.ratcap , title: ImageConstants.ratcapTitle, description: ImageConstants.ratcapDescription)
+            return [model9,model10, model11, model12, model1, model2, model3, model4, model5, model6, model7, model8]
+        }
     
 }
 
