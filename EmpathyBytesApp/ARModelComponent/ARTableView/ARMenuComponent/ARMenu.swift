@@ -43,7 +43,7 @@ class ARMenu : UIViewController{
     
     func configureARMenuTitle() {
         print("label add")
-        titleLabel.text = "AR Makerspace Gallery"
+        titleLabel.text = "AR GT Archives"
         self.view.addSubview(titleLabel)
         //configureTitleConstrains()
     }
