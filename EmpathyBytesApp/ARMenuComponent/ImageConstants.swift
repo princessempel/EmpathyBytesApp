@@ -43,17 +43,17 @@ struct ImageConstants {
     
     static let olympicTorch = "OlympicTorch";
     static let olympicTorchTitle = "Olympic Torch";
-    static let olympicTorchDescription = "In the archives, we have an olympic torch!";
+    static let olympicTorchDescription = "Here is a model of the Olympic torch used during the 1996 Olympics in Atlanta, GA. The torch burner mechanism was designed by Dr. Sam Shelton, associate professor of mechanical engineering at Georgia Tech. Shelton also acted as consultant on the design issues with regard to the Salt Lake City Winter Olympics torch, which was designed by Malcolm Grear Designers.";
     
     static let trophy = "GTartifactTrophy";
     static let trophyTitle = "GT Trophy";
-    static let trophyDescription = "Here is a trophy from the GT Archives!";
-    
+    static let trophyDescription = "Here is a trophy from the Rambliin' Wreck parade! Today's Ramblin' Wreck parade, held each Homecoming, is descended from an actual auto race that was furn from Atlanta to Athens, Georgia, starting in 1929. The trophy's made from a spittoon associated with the original State Capitol Building at Milledgeville, GA.";
+
     static let whistle = "Whistle_Fixed";
     static let whistleTitle = "GT Whistle";
-    static let whistleDescription = "This is the original GT Whistle!";
-    
+    static let whistleDescription = "Here is a model of the GT original whistle! Georgia Tech whistle mounted on wooden display pedestal. Inscribed on the surface of the whistle: 'The Whistle of Georgia Tech until 1995.' Wooden base includes a plaque indicating: 'Presented to / President Clough / In Honor of his Inauguration / By the Class of 1995.'";
+
     static let ratcap = "ratcap";
     static let ratcapTitle = "Antique GT Ratcap";
-    static let ratcapDescription = "This is an old GT Ratcap!";
+    static let ratcapDescription = "This is an old GT Ratcap worn by ome of the sudents dating back to the 1910's. In 1914, James Herty Lucas wrote an editorial in The Yellow Jacket Magazine proposing that all new students wear a RAT Cap. The editorial proved persuasive: RAT caps made their debut at Georgia Tech in the fall of 1915, emblazoned with a white “F” for freshman.";
 }

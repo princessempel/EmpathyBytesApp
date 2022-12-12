@@ -18,10 +18,10 @@ struct interviewMenuView: View {
                     Text("EMPATHY BYTES")
                         .font(.caption)
                         .foregroundColor(.secondary)
-                        .fontWeight(.white)
+                        .fontWeight(.black)
                     Text("Interviews")
                         .font(.system(size: 30, weight: .bold, design: .default))
-                        .fontWeight(.white)
+                        .fontWeight(.black)
                 } //interview header
                 Spacer()
             }
