@@ -41,6 +41,9 @@ struct fall2021InterviewsView: View {
                     }
                 }
             }
+//            .background(LinearGradient(
+//                colors: [.init(red: 249/255, green: 246/255, blue: 231/255), .init(red: 249/255, green: 246/255, blue: 231/255)],
+//                startPoint: .top, endPoint: .bottom))
     }
 }
 

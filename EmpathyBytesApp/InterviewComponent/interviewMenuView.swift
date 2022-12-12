@@ -18,9 +18,10 @@ struct interviewMenuView: View {
                     Text("EMPATHY BYTES")
                         .font(.caption)
                         .foregroundColor(.secondary)
+                        .fontWeight(.white)
                     Text("Interviews")
                         .font(.system(size: 30, weight: .bold, design: .default))
-                        .fontWeight(.black)
+                        .fontWeight(.white)
                 } //interview header
                 Spacer()
             }
@@ -58,25 +59,10 @@ struct interviewMenuView: View {
                     .cornerRadius(15)
             }
             Spacer()
-            /**
             
-            NavigationLink(destination: spring2020InterviewsView()) {
-                Text("Spring 2020")
-                    .frame(width: 200, height: 50)
-                    .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
-                    .foregroundColor(.white)
-                    .font(.system(size: 18, weight: .medium, design: .default))
-                    .cornerRadius(15)
-            }
-            NavigationLink(destination: fall2019InterviewsView()) {
-                Text("Fall 2019")
-                    .frame(width: 200, height: 50)
-                    .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
-                    .foregroundColor(.white)
-                    .font(.system(size: 18, weight: .medium, design: .default))
-                    .cornerRadius(15)
-            }
-             */
         }
+//        .background(LinearGradient(
+//            colors: [.init(red: 15/255, green: 48/255, blue: 84/255), .init(red: 15/255, green: 48/255, blue: 84/255)],
+//            startPoint: .top, endPoint: .bottom))
     }
 }

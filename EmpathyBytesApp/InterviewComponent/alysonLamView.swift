@@ -33,7 +33,7 @@ struct alysonLamPlayer : View {
     
     var body : some View{
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [.init(red: 1.0, green: 1.0, blue: 223/255), .init(red: 178/255, green: 241/255, blue: 242/255)]), startPoint: .topLeading,
+            LinearGradient(gradient: Gradient(colors: [.init(red: 249/255, green: 246/255, blue: 231/255), .init(red: 249/255, green: 246/255, blue: 231/255)]), startPoint: .topLeading,
                            endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
         
