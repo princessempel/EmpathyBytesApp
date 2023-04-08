@@ -1,0 +1,26 @@
+[
+    {
+        "modelName": "Georgia Tech Whistle",
+        "fileName": "Whistle_Fixed",
+        "id": 3,
+        "createdBy": "someone",
+        "description": "This is the original GT Whistle!",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Skateboard",
+        "fileName": "Offroad Electric Skateboard",
+        "id": 2,
+        "createdBy": "someone",
+        "description": "Akhil, a PI at the HIVE, created an off-roading electric skateboard using a motor from a Lime skateboard and combining it with electronics he designed. After hours of laser cutting and mounting parts, he finished the skateboard of the future.",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "Toy Airplane",
+        "fileName": "ToyAirplane",
+        "id": 1,
+        "createdBy" : "someone",
+        "description": "This model symbolizes the Yang Aero Makerspace in which students can build prototypes to promote their aerospace research. The makerspace is run by students, called Space Mentors, and they train students to use the machines effectively and effectively.",
+        "collection": "Makerspaces"
+    }
+]

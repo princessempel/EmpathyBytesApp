@@ -1,0 +1,16 @@
+[
+    {
+        "name": "COVID Freshmen",
+        "id": 2,
+        "imageName": "logoCircuitsTech",
+        "timeline": "Spring 2022 - Fall 2022",
+        "description": "Starting the first year of college is a rite of passage many high school graduates fulfill every August. For many students, the move into the dorm is their first taste of adulthood. As first-year students flock to campus, Tech Green, the CULC, and Bobby Dodd Stadium buzz with the energy of thousands of brand new Yellow Jackets both excited and anxious to begin their journey through higher education. However, in the fall of 2020, many dorm rooms sat empty, the line at Blue Donkey was rarely long, and Price Gilbert became home to a COVID testing site rather than a hub for campus life. This fall, as the Georgia Tech community, and the nation as a whole, begin a slow return to what life once was, our second-year Jackets face a unique paradigm. Through the project 'Covid Freshmen' and (Re)Connecting to Campus, we will document their stories and the distinct challenges Georgia Tech second year students are facing."
+    },
+    {
+        "name": "Makerspaces",
+        "id": 1,
+        "imageName": "logoCircuitsTech",
+        "timeline": "Spring 2022 - Fall 2022",
+        "description": "some kind of description"
+    }
+]

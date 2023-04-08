@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Carly Yin",
+        "id": 10,
+        "mainTeam": "Web",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Audrey Chung",
+        "id": 9,
+        "mainTeam": "Web",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Evelyn Craven",
+        "id": 8,
+        "mainTeam": "Web",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Genesis Fu",
+        "id": 7,
+        "mainTeam": "App",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Iliyah Dean",
+        "id": 6,
+        "mainTeam": "App",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Greyson Mullins",
+        "id": 5,
+        "mainTeam": "App",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "John Pham",
+        "id": 4,
+        "mainTeam": "Virtual Reality",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Jacob Amin",
+        "id": 3,
+        "mainTeam": "Web",
+        "major": "Computational Media",
+        "imageName": ""
+    },
+    {
+        "name": "Taylor Roth",
+        "id": 2,
+        "mainTeam": "Media",
+        "major": "Computer Science",
+        "imageName": ""
+    },
+    {
+        "name": "Princess Empel",
+        "id": 1,
+        "mainTeam": "App",
+        "major": "Computer Science",
+        "imageName": ""
+    }
+]
