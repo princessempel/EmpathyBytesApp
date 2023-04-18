@@ -58,6 +58,8 @@ struct AboutUs: View {
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
+                Spacer()
+                    .frame(height: 100)
             }
         }
         

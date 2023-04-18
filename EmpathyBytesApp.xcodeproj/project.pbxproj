@@ -65,6 +65,7 @@
 		BC6328992921E18400AE3355 /* amitJariwalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6328972921E18200AE3355 /* amitJariwalaView.swift */; };
 		BC63289A2921E18400AE3355 /* daneWryeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6328982921E18400AE3355 /* daneWryeView.swift */; };
 		BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B262814A2FF00145F91 /* alysonLamView.swift */; };
+		BCAC054529EDE7950096C1D0 /* BottomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC054429EDE7950096C1D0 /* BottomNavBarView.swift */; };
 		BCC1D7FC29E21EEA0092D7DF /* ARModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7F829E21EEA0092D7DF /* ARModelData.json */; };
 		BCC1D7FD29E21EEA0092D7DF /* teamMemberData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7F929E21EEA0092D7DF /* teamMemberData.json */; };
 		BCC1D7FE29E21EEA0092D7DF /* interviewData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7FA29E21EEA0092D7DF /* interviewData.json */; };
@@ -75,6 +76,11 @@
 		BCC61AF3293C2E1200A50AF1 /* fall2020InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC61AF2293C2E1200A50AF1 /* fall2020InterviewsView.swift */; };
 		BCC61AF5293C2F5500A50AF1 /* spring2020InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC61AF4293C2F5500A50AF1 /* spring2020InterviewsView.swift */; };
 		BCC61AF7293C2F6F00A50AF1 /* fall2019InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC61AF6293C2F6F00A50AF1 /* fall2019InterviewsView.swift */; };
+		BCFBADFF29EE0A4100095243 /* CollectionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBADFE29EE0A4100095243 /* CollectionsMenuView.swift */; };
+		BCFBAE0129EE285200095243 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAE0029EE285200095243 /* Collection.swift */; };
+		BCFBAE0329EE2B0000095243 /* CollectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAE0229EE2B0000095243 /* CollectionRow.swift */; };
+		BCFBAE0529EE2B4F00095243 /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAE0429EE2B4F00095243 /* JSONData.swift */; };
+		BCFBAE0729EE3C2600095243 /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBAE0629EE3C2600095243 /* CollectionDetailView.swift */; };
 		C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */; };
 		C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */; };
 /* End PBXBuildFile section */
@@ -163,6 +169,7 @@
 		BC6328972921E18200AE3355 /* amitJariwalaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amitJariwalaView.swift; sourceTree = "<group>"; };
 		BC6328982921E18400AE3355 /* daneWryeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daneWryeView.swift; sourceTree = "<group>"; };
 		BCA81B262814A2FF00145F91 /* alysonLamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alysonLamView.swift; sourceTree = "<group>"; };
+		BCAC054429EDE7950096C1D0 /* BottomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBarView.swift; sourceTree = "<group>"; };
 		BCC1D7F829E21EEA0092D7DF /* ARModelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ARModelData.json; sourceTree = "<group>"; };
 		BCC1D7F929E21EEA0092D7DF /* teamMemberData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamMemberData.json; sourceTree = "<group>"; };
 		BCC1D7FA29E21EEA0092D7DF /* interviewData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = interviewData.json; sourceTree = "<group>"; };
@@ -173,6 +180,11 @@
 		BCC61AF2293C2E1200A50AF1 /* fall2020InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fall2020InterviewsView.swift; sourceTree = "<group>"; };
 		BCC61AF4293C2F5500A50AF1 /* spring2020InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spring2020InterviewsView.swift; sourceTree = "<group>"; };
 		BCC61AF6293C2F6F00A50AF1 /* fall2019InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fall2019InterviewsView.swift; sourceTree = "<group>"; };
+		BCFBADFE29EE0A4100095243 /* CollectionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsMenuView.swift; sourceTree = "<group>"; };
+		BCFBAE0029EE285200095243 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		BCFBAE0229EE2B0000095243 /* CollectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionRow.swift; sourceTree = "<group>"; };
+		BCFBAE0429EE2B4F00095243 /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
+		BCFBAE0629EE3C2600095243 /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
 		C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MechanicalKeyboard.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,6 +280,7 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCFBADFD29EE0A1000095243 /* Collections Views */,
 				BCC1D7F729E21EDD0092D7DF /* JSON Data */,
 				B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */,
 				B8B2E995272C8AC800729BB7 /* AppDelegate.swift */,
@@ -334,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				B8B2E9D2272C8D3D00729BB7 /* ContentView.swift */,
+				BCAC054429EDE7950096C1D0 /* BottomNavBarView.swift */,
 			);
 			path = AppMenuComponent;
 			sourceTree = "<group>";
@@ -394,8 +408,20 @@
 				BCC1D7FB29E21EEA0092D7DF /* collectionData.json */,
 				BCC1D7FA29E21EEA0092D7DF /* interviewData.json */,
 				BCC1D7F929E21EEA0092D7DF /* teamMemberData.json */,
+				BCFBAE0029EE285200095243 /* Collection.swift */,
+				BCFBAE0229EE2B0000095243 /* CollectionRow.swift */,
+				BCFBAE0429EE2B4F00095243 /* JSONData.swift */,
 			);
 			path = "JSON Data";
+			sourceTree = "<group>";
+		};
+		BCFBADFD29EE0A1000095243 /* Collections Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBADFE29EE0A4100095243 /* CollectionsMenuView.swift */,
+				BCFBAE0629EE3C2600095243 /* CollectionDetailView.swift */,
+			);
+			path = "Collections Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -559,11 +585,14 @@
 				BC28131C291EC3C300ABD69D /* MatchingGameObject.swift in Sources */,
 				BCC61AF3293C2E1200A50AF1 /* fall2020InterviewsView.swift in Sources */,
 				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
+				BCFBAE0129EE285200095243 /* Collection.swift in Sources */,
+				BCFBADFF29EE0A4100095243 /* CollectionsMenuView.swift in Sources */,
 				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
 				7A4561B227515D37002947A2 /* AboutUs.swift in Sources */,
 				B8B2E9CD272C8D2400729BB7 /* CustomTableViewCell.swift in Sources */,
 				BCC61AEF293C25DC00A50AF1 /* spring2022InterviewsView.swift in Sources */,
 				BCC61AF5293C2F5500A50AF1 /* spring2020InterviewsView.swift in Sources */,
+				BCFBAE0329EE2B0000095243 /* CollectionRow.swift in Sources */,
 				7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */,
 				B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */,
 				7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */,
@@ -572,6 +601,7 @@
 				B8B2E9CF272C8D3000729BB7 /* cardView.swift in Sources */,
 				7AA544D02802378B0066594F /* joelView.swift in Sources */,
 				7AA544EF2804F1100066594F /* ARPage.swift in Sources */,
+				BCFBAE0529EE2B4F00095243 /* JSONData.swift in Sources */,
 				B8B2E9E4272C8EA100729BB7 /* MusicView.swift in Sources */,
 				7AA544CC280235D80066594F /* emaadView.swift in Sources */,
 				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
@@ -585,6 +615,8 @@
 				BC28131B291EC3C300ABD69D /* ARGameObject.swift in Sources */,
 				BC281319291EC3C300ABD69D /* ARMatchGameModelView.swift in Sources */,
 				7AA544ED2804F1030066594F /* ARGameMenu.swift in Sources */,
+				BCFBAE0729EE3C2600095243 /* CollectionDetailView.swift in Sources */,
+				BCAC054529EDE7950096C1D0 /* BottomNavBarView.swift in Sources */,
 				B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */,
 				7A4025D2275402F400501F5D /* ARModel.swift in Sources */,
 				B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */,
