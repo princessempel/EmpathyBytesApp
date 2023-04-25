@@ -69,6 +69,8 @@
 		BC82B09D29F7759800D617E1 /* TeamMemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82B09C29F7759800D617E1 /* TeamMemberList.swift */; };
 		BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B262814A2FF00145F91 /* alysonLamView.swift */; };
 		BCAC054529EDE7950096C1D0 /* BottomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC054429EDE7950096C1D0 /* BottomNavBarView.swift */; };
+		BCB409F429F860DE00F10278 /* AudioInterviewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB409F329F860DE00F10278 /* AudioInterviewDetail.swift */; };
+		BCB409F629F8642900F10278 /* AudioInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB409F529F8642900F10278 /* AudioInterview.swift */; };
 		BCC1D7FC29E21EEA0092D7DF /* ARModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7F829E21EEA0092D7DF /* ARModelData.json */; };
 		BCC1D7FD29E21EEA0092D7DF /* teamMemberData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7F929E21EEA0092D7DF /* teamMemberData.json */; };
 		BCC1D7FE29E21EEA0092D7DF /* interviewData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC1D7FA29E21EEA0092D7DF /* interviewData.json */; };
@@ -176,6 +178,8 @@
 		BC82B09C29F7759800D617E1 /* TeamMemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberList.swift; sourceTree = "<group>"; };
 		BCA81B262814A2FF00145F91 /* alysonLamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alysonLamView.swift; sourceTree = "<group>"; };
 		BCAC054429EDE7950096C1D0 /* BottomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBarView.swift; sourceTree = "<group>"; };
+		BCB409F329F860DE00F10278 /* AudioInterviewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInterviewDetail.swift; sourceTree = "<group>"; };
+		BCB409F529F8642900F10278 /* AudioInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInterview.swift; sourceTree = "<group>"; };
 		BCC1D7F829E21EEA0092D7DF /* ARModelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ARModelData.json; sourceTree = "<group>"; };
 		BCC1D7F929E21EEA0092D7DF /* teamMemberData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamMemberData.json; sourceTree = "<group>"; };
 		BCC1D7FA29E21EEA0092D7DF /* interviewData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = interviewData.json; sourceTree = "<group>"; };
@@ -380,6 +384,7 @@
 				BCC61AF2293C2E1200A50AF1 /* fall2020InterviewsView.swift */,
 				BCC61AF4293C2F5500A50AF1 /* spring2020InterviewsView.swift */,
 				BCC61AF6293C2F6F00A50AF1 /* fall2019InterviewsView.swift */,
+				BCB409F329F860DE00F10278 /* AudioInterviewDetail.swift */,
 			);
 			path = InterviewComponent;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				BCFBAE0429EE2B4F00095243 /* JSONData.swift */,
 				BC82B09829F75DD700D617E1 /* TeamMember.swift */,
 				BC82B09A29F75FC600D617E1 /* TeamMemberRow.swift */,
+				BCB409F529F8642900F10278 /* AudioInterview.swift */,
 			);
 			path = "JSON Data";
 			sourceTree = "<group>";
@@ -594,6 +600,7 @@
 				BC28131C291EC3C300ABD69D /* MatchingGameObject.swift in Sources */,
 				BCC61AF3293C2E1200A50AF1 /* fall2020InterviewsView.swift in Sources */,
 				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
+				BCB409F429F860DE00F10278 /* AudioInterviewDetail.swift in Sources */,
 				BCFBAE0129EE285200095243 /* Collection.swift in Sources */,
 				BCFBADFF29EE0A4100095243 /* CollectionsMenuView.swift in Sources */,
 				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
@@ -620,6 +627,7 @@
 				BCC61AF7293C2F6F00A50AF1 /* fall2019InterviewsView.swift in Sources */,
 				B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */,
 				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,
+				BCB409F629F8642900F10278 /* AudioInterview.swift in Sources */,
 				B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */,
 				BC82B09D29F7759800D617E1 /* TeamMemberList.swift in Sources */,
 				BC28131B291EC3C300ABD69D /* ARGameObject.swift in Sources */,

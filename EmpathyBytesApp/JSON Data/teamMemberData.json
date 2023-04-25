@@ -32,7 +32,7 @@
         "id": 10,
         "mainTeam": "Web",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "person placeholder"
     },
     {
         "name": "Audrey Chung",
@@ -60,7 +60,7 @@
         "id": 6,
         "mainTeam": "App",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "person placeholder"
     },
     {
         "name": "Greyson Mullins",

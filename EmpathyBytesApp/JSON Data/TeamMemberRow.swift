@@ -11,22 +11,26 @@ struct TeamMemberRow: View {
     var member: TeamMember
     
     var body: some View {
-        VStack {
-            Text(member.name)
-                .font(.system(size: 24, weight: .medium))
-                .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+        HStack {
             member.image
                 .resizable()
                 .scaledToFill()
                 .frame(width: 100, height: 100)
                 .clipped()
-            Text("Team: " + member.mainTeam)
-                .font(.system(size: 16, weight: .light))
-                .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
-            Text("Major: " + member.major)
-                .font(.system(size: 16, weight: .light))
-                .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+            VStack (alignment: .leading) {
+                Text(member.name)
+                    .font(.system(size: 24, weight: .medium))
+                    .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+                Text("Team: " + member.mainTeam)
+                    .font(.system(size: 16, weight: .light))
+                    .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+                Text("Major: " + member.major)
+                    .font(.system(size: 16, weight: .light))
+                    .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+            
+            }
         }
+        
         /*
         HStack {
             collection.image

@@ -58,7 +58,7 @@ struct CollectionDetail: View {
                     }
                     HStack(alignment: .center) {
                         Spacer()
-                        NavigationLink(destination: interviewMenuView()) {
+                        NavigationLink(destination: ARMenuView()) {
                             Text("AR Models")
                                 .frame(width: 150, height: 150)
                                 .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
@@ -66,7 +66,7 @@ struct CollectionDetail: View {
                                 .font(.system(size: 18, weight: .medium, design: .default))
                                 .cornerRadius(15)
                         }
-                        NavigationLink(destination: interviewMenuView()) {
+                        NavigationLink(destination: ARGameMenu()) {
                             Text("Games")
                                 .frame(width: 150, height: 150)
                                 .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
@@ -90,8 +90,6 @@ struct CollectionDetail: View {
                 .padding()
                 Spacer()
             }
-            .navigationTitle(collection.name)
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

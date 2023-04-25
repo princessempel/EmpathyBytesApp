@@ -17,7 +17,7 @@ struct CollectionRow: View {
                 .frame(width: 75, height: 75)
                 .padding()
             Text(collection.name)
-                .font(.system(size: 24, weight: .medium))
+                .font(.system(size: 22, weight: .medium))
                 .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
                 .padding()
             Spacer()
@@ -45,7 +45,6 @@ struct CollectionRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             CollectionRow(collection: collections[0])
-            CollectionRow(collection: collections[1])
         }
         .previewLayout(.fixed(width: 500, height: 100))
     }
