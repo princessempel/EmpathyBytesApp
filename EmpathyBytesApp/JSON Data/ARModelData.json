@@ -1,11 +1,155 @@
 [
     {
-        "modelName": "Georgia Tech Whistle",
+        "modelName": "'T' Sweater (1929)",
+        "fileName": "t_sweater",
+        "id": 21,
+        "createdBy": "someone",
+        "description": "'T' Sweater associated with C.S. 'Shorty' Smith, Class of 1929. Contributor - C.S. 'Shorty' Smith",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Buzz's Converses (1988)",
+        "fileName": "BuzzPlaque",
+        "id": 20,
+        "createdBy": "someone",
+        "description": "Converse 'Chuck Taylors' sneakers associated with Susan Davis, the first woman to play the part of Buzz. Contributor - Susan Davis",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Signed Spalding Football",
+        "fileName": "football",
+        "id": 19,
+        "createdBy": "someone",
+        "description": "Spalding 'Autograph' football in gold and white. Football is stamped 'GA TECH' in the white panel below the Spalding label. Hand-lettering below the Spalding label indicates 'Presented to Dean Jim Dull.' On the two white panels of the football are hand-written signatures, probably of GA Tech football players. No date is evident on the football. Dean James served as Dean of Students at Georgia Tech from 1965 until his retirement in 1991. Dull is remembered as having found and acquired the official Ramblin' wreck vehicle in 1960, a 1930 Model A Ford Sport Coupe. Contributor - Dean James Dull",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Signed Wilson Football",
+        "fileName": "packagedfootball",
+        "id": 18,
+        "createdBy": "someone",
+        "description": "Signed Wilson football still in original packaging.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Button (1920s)",
+        "fileName": "Button",
+        "id": 17,
+        "createdBy": "someone",
+        "description": "Georgia Tech 'T' button from the 1920s",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Bookends (1936)",
+        "fileName": "bookend",
+        "id": 16,
+        "createdBy": "someone",
+        "description": "The Tech Yellow Jackets played the University of California's Golden Bears the day after Christmas in 1936, defeating the California team, 13-7. These bookends may well have been a product of Georgia Tech's Department of Ceramic Engineering in commemoration of the event.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Ash Tray (1947)",
+        "fileName": "ashtray",
+        "id": 15,
+        "createdBy": "someone",
+        "description": "Ash tray from 1947",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Model Plane (1952)",
+        "fileName": "BuzzPlaque",
+        "id": 14,
+        "createdBy": "someone",
+        "description": "In the late 1940's, Georgia Tech students began the tradition of flying a model Yellow Jacket plane during the halftime of football games. The idea apparently originated with William Milar, who graduated from Tech's Aerospace program in 1950. Milar apporached then band director, Ben Logan Sisk, with the idea, and the plane's appearance was incorporated into the Tech band's halftime show. Stuart L. Richmond (IM, '51) and William Cooksey continued the tradition in the early 1950's. Contributor - Richmond, Stuart L.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Buzz Plaque (1988)",
+        "fileName": "BuzzPlaque",
+        "id": 13,
+        "createdBy": "someone",
+        "description": "A plaque dedicated to Buzz. Dated 1987-1988.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Antique Rat Cap (1936)",
+        "fileName": "ratcap",
+        "id": 12,
+        "createdBy": "someone",
+        "description": "This Rat cap belonged to Mit (J.M.) Fitzsimons. Fitzsimons was captain of the 1936 Georgia Tech football team. The tradition of wearing Rat caps began in 1915. Tech freshmen were required wear the caps everyday until the Thanksgiving Day game with the University of Georgia. Students often recorded the dates and scores of that season's football games on each panel of the cap.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Georgia Tech Whistle (1995)",
         "fileName": "Whistle_Fixed",
+        "id": 11,
+        "createdBy": "someone",
+        "description": "Here is a model of the GT original whistle! Georgia Tech whistle mounted on wooden display pedestal. Inscribed on the surface of the whistle: 'The Whistle of Georgia Tech until 1995.' Wooden base includes a plaque indicating: 'Presented to / President Clough / In Honor of his Inauguration / By the Class of 1995.'",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "GT Trophy",
+        "fileName": "GTartifactTrophy",
+        "id": 10,
+        "createdBy": "someone",
+        "description": "Here is a trophy from the Rambliin' Wreck parade! Today's Ramblin' Wreck parade, held each Homecoming, is descended from an actual auto race that was furn from Atlanta to Athens, Georgia, starting in 1929. The trophy's made from a spittoon associated with the original State Capitol Building at Milledgeville, GA.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Olympic Torch (1996)",
+        "fileName": "OlympicTorch",
+        "id": 9,
+        "createdBy": "someone",
+        "description": "Here is a model of the Olympic torch used during the 1996 Olympics in Atlanta, GA. The torch burner mechanism was designed by Dr. Sam Shelton, associate professor of mechanical engineering at Georgia Tech. Shelton also acted as consultant on the design issues with regard to the Salt Lake City Winter Olympics torch, which was designed by Malcolm Grear Designers.",
+        "collection": "GT Archives"
+    },
+    {
+        "modelName": "Mechanical Keyboard",
+        "fileName": "MechanicalKeyboard",
+        "id": 8,
+        "createdBy": "someone",
+        "description": "Mechanical keyboards are all the rage in enthusiast circles, and some Georgia Tech students have utilized the makerspace to fabricate their very own keyboards from scratch. Tech students make in-house mechanical keyboards by 3D-printing frames, keycaps, and other components easily found online. This keyboard is one of many free-to-use models available online to print from, making it very easy for creators to collaborate and share project components. Georgia Tech even has its own mechanical keyboard club on campus!",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "Studio Output Stand",
+        "fileName": "StudioStand",
+        "id": 7,
+        "createdBy": "someone",
+        "description": "Nathan designed and created a wooden shelf with his friend to add a nice touch to his studio room. He used the makerspace to sand, stain, and finish wood to put together the pieces to create a shelf.",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "Furniture by Matthew",
+        "fileName": "WoodenTable",
+        "id": 6,
+        "createdBy": "someone",
+        "description": "Matthew used the Makerspace to create different furniture pieces to liven up and transform his room. He used the Hive Makerspace to stain and cut pieces of wood that he later used in building his furniture. Additionally, he used the machinery in the makerspace and his skills in wood-building to create floats for the Homecoming parade.",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "Christmas Tree Ornaments",
+        "fileName": "ChristmasTree",
+        "id": 5,
+        "createdBy": "someone",
+        "description": "Students love making Christmas ornaments at the HIVE. It is a fun way to combine engineering and the holiday spirit into an activity. Students can use the CNC machine to create wooden ornaments and the 3d printer to create ornaments beyond imagination.",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "Stylized Flower Pot",
+        "fileName": "FlowerPot",
+        "id": 4,
+        "createdBy": "someone",
+        "description": "The HIVE makerspace held a flower pot workshop in which students can create their personalized flower pot using a laser cutter. This workshop introduced students to the HIVE tools and displayed the creativity that happens at the HIVE everyday.",
+        "collection": "Makerspaces"
+    },
+    {
+        "modelName": "CNC Control Panel",
+        "fileName": "CNCControlPanel",
         "id": 3,
         "createdBy": "someone",
-        "description": "This is the original GT Whistle!",
-        "collection": "GT Archives"
+        "description": "The Hive makerspace uses the CNC Control panel regularly to control the CNC machine which accurately cuts wood pieces. Even though there are many controls on the panel, students can easily use it because they have experience using the machine and there are numerous instructors to guide the newer students.",
+        "collection": "Makerspaces"
     },
     {
         "modelName": "Skateboard",
