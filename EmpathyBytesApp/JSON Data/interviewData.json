@@ -1,5 +1,77 @@
 [
     {
+        "heading": "Emaad Shamsi",
+        "collection": "Makerspaces",
+        "author": "Nivedita Chellam",
+        "id": 11,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "Emaad Shamsi, the Communications Director for the Invention Studio, explains the role the Invention Studio has played in his life, specifically its effect on his professional career."
+    },
+    {
+        "heading": "Abi Ivemeyer",
+        "collection": "Makerspaces",
+        "author": "Molly Brigham",
+        "id": 10,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "some kind of description"
+    },
+    {
+        "heading": "Joel Jones",
+        "collection": "Makerspaces",
+        "author": "Molly Brigham",
+        "id": 9,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "some kind of description"
+    },
+    {
+        "heading": "Lara Langston",
+        "collection": "Makerspaces",
+        "author": "Molly Brigham",
+        "id": 8,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "Lara Langston is from Ringgold, a town home to just over 3500 residents. Ringgold is a prime example of small town Georgia, where its residents live in a close-knit community."
+    },
+    {
+        "heading": "Matthew Dick",
+        "collection": "Makerspaces",
+        "author": "Molly Brigham",
+        "id": 7,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "The Invention Studio at Georgia Tech sets itself apart from other Makerspaces across the country. It matters not your GPA, major, or interests. Anyone has open access to the creative space for their projects. Matthew Dick, a Prototyping Instructor (PI) at the Georgia Tech Invention Studio, talks about the history of the Makerspace and how it is used."
+    },
+    {
+        "heading": "Dr. Marion Usselman",
+        "collection": "Distance Math",
+        "author": "Molly Brigham",
+        "id": 6,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "Dr. Marion Usselman of the Center for Education Integrating Science, Mathematics, and Computing (CEISMC) talks about the origins of the Distance Math Program at Georgia Tech and her role as a pioneer in its creation and evolution."
+    },
+    {
+        "heading": "Dr. Amit Jariwala",
+        "collection": "Makerspaces",
+        "author": "Greyson Mullins",
+        "id": 5,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "The Invention Studio community began in 2009 in a mailroom and as since grown to become one of the top Makrerspaces in the country. Dr. Amit Jariwala, the Faculty Advisor for the Invention Studio, explains the history and creation of the Flowers Invention Studio. He explains the important role of the student peer instructors and the trust maintained between the student leaders and the university."
+    },
+    {
+        "heading": "Dane Wrye",
+        "collection": "Makerspaces",
+        "author": "Greyson Mullins",
+        "id": 4,
+        "imageName": "logoCircuitsTech",
+        "audioName": "placeholder",
+        "description": "The Hive is the student organization that runs the Interdisciplinary Design Commons (IDC), Georgia Tech’s electrical and computer engineering makerspace. The Hive’s community is truly unique, made up of peer instructors and end-users new and old; all hoping to bring to life “whatever’s in their crazy brain of theirs”. Dane Wrye, the Outreach Officer at The Hive, shares his experience as an officer and peer instructor working at the IDC. He recounts some of the craziest projects he’s witnessed in the IDC including a fire breathing dragon float."
+    },
+    {
         "heading": "Sheleah Harris",
         "collection": "COVID Freshmen",
         "author": "Greyson Mullins",
@@ -18,7 +90,7 @@
         "description": "Samah Khan started her undergraduate studies in her childhood bedroom.  Khan was originally on track and excited to attend the University of Georgia in Athens.  However, when she learned she would be forced to live in the dorms despite health and safety concerns, she decided it would be best for her to continue to attend Georgia State University, where she had dual-enrolled in high school.  Like many first-year students, Khan felt deeply disconnected from the campus community at Georgia State when attending courses online.  Unfortunately, when the Fall 2021 semester, came and Khan attended courses in person, she still was not convinced that Georgia State was the right fit for her.  Khan describes her mother pushing her to pursue a degree from Georgia Tech, as many of their close friends graduated from Georgia Tech.  She describes submitting her transfer application partially to appease her mother, but when she received her acceptance letter, she decided Georgia Tech was going to become her new place of study.  We spoke to Khan in early February, and she had loved her first month at Georgia Tech.  To hear more about Khan’s journey to Georgia Tech and experience beginning college from her childhood bedroom, check back to find her video interview."
     },
     {
-        "heading": "Alyson Lam on working at The Hive",
+        "heading": "Alyson Lam",
         "collection": "Makerspaces",
         "author": "Jocelyn Kavanagh",
         "id": 1,

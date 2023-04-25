@@ -8,6 +8,7 @@
 import Foundation
 
 var collections: [Collection] = load("collectionData.json")
+var members: [TeamMember] = load("teamMemberData.json")
 
 // fetchs JSON data
 func load<T: Decodable>(_ filename: String) -> T {

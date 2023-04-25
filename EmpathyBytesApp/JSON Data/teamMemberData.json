@@ -1,5 +1,33 @@
 [
     {
+        "name": "Jack English",
+        "id": 14,
+        "mainTeam": "Virtual Reality",
+        "major": "Computer Science",
+        "imageName": "Jack"
+    },
+    {
+        "name": "Yunsu Kim",
+        "id": 13,
+        "mainTeam": "Virtual Reality",
+        "major": "Computer Science",
+        "imageName": "Yunsu"
+    },
+    {
+        "name": "Eunice Kim",
+        "id": 12,
+        "mainTeam": "Media",
+        "major": "Computer Science",
+        "imageName": "Eunice"
+    },
+    {
+        "name": "Sruti Gandreti",
+        "id": 11,
+        "mainTeam": "Media",
+        "major": "Computer Science",
+        "imageName": "Sruti"
+    },
+    {
         "name": "Carly Yin",
         "id": 10,
         "mainTeam": "Web",
@@ -11,21 +39,21 @@
         "id": 9,
         "mainTeam": "Web",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Audrey"
     },
     {
         "name": "Evelyn Craven",
         "id": 8,
         "mainTeam": "Web",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Evelyn"
     },
     {
         "name": "Genesis Fu",
         "id": 7,
         "mainTeam": "App",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Genesis"
     },
     {
         "name": "Iliyah Dean",
@@ -39,34 +67,34 @@
         "id": 5,
         "mainTeam": "App",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Greyson"
     },
     {
         "name": "John Pham",
         "id": 4,
         "mainTeam": "Virtual Reality",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "John"
     },
     {
         "name": "Jacob Amin",
         "id": 3,
         "mainTeam": "Web",
         "major": "Computational Media",
-        "imageName": ""
+        "imageName": "Jacob"
     },
     {
         "name": "Taylor Roth",
         "id": 2,
         "mainTeam": "Media",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Taylor"
     },
     {
         "name": "Princess Empel",
         "id": 1,
         "mainTeam": "App",
         "major": "Computer Science",
-        "imageName": ""
+        "imageName": "Princess"
     }
 ]

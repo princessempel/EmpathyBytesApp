@@ -35,6 +35,47 @@ struct CollectionDetail: View {
                         .font(.system(size: 14, weight: .medium))
                         .padding(.bottom)
                         .foregroundColor(Color(red: 0/255, green: 48/255, blue: 87/255))
+                    Spacer()
+                    HStack(alignment: .center) {
+                        Spacer()
+                        NavigationLink(destination: interviewMenuView()) {
+                            Text("Video Interviews")
+                                .frame(width: 150, height: 150, alignment: .center)
+                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
+                                .foregroundColor(.white)
+                                .font(.system(size: 18, weight: .medium, design: .default))
+                                .cornerRadius(15)
+                        }
+                        NavigationLink(destination: interviewMenuView()) {
+                            Text("Audio Interviews")
+                                .frame(width: 150, height: 150, alignment: .center)
+                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
+                                .foregroundColor(.white)
+                                .font(.system(size: 18, weight: .medium, design: .default))
+                                .cornerRadius(15)
+                        }
+                        Spacer()
+                    }
+                    HStack(alignment: .center) {
+                        Spacer()
+                        NavigationLink(destination: interviewMenuView()) {
+                            Text("AR Models")
+                                .frame(width: 150, height: 150)
+                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
+                                .foregroundColor(.white)
+                                .font(.system(size: 18, weight: .medium, design: .default))
+                                .cornerRadius(15)
+                        }
+                        NavigationLink(destination: interviewMenuView()) {
+                            Text("Games")
+                                .frame(width: 150, height: 150)
+                                .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
+                                .foregroundColor(.white)
+                                .font(.system(size: 18, weight: .medium, design: .default))
+                                .cornerRadius(15)
+                        }
+                        Spacer()
+                    }
                     /*
                     NavigationLink(destination: ArticleList()) {
                         Text("Interviews")
@@ -57,6 +98,6 @@ struct CollectionDetail: View {
 
 struct CollectionDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CollectionDetail(collection: collections[0])
+        CollectionDetail(collection: collections[1])
     }
 }
