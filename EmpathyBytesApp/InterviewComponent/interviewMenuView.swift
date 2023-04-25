@@ -60,8 +60,6 @@ struct interviewMenuView: View {
             }
             Spacer()
         }
-//        .background(LinearGradient(
-//            colors: [.init(red: 15/255, green: 48/255, blue: 84/255), .init(red: 15/255, green: 48/255, blue: 84/255)],
-//            startPoint: .top, endPoint: .bottom))
+        .background(Color(red: 249/255, green: 246/255, blue: 229/255))
     }
 }

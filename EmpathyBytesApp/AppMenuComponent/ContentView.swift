@@ -43,7 +43,7 @@ struct ContentView: View {
                         .frame(height: 50)
                     VStack {
                         NavigationLink(destination: BottomNavBarView()) {
-                            Text("Explore")
+                            Text("Start Exploring!")
                                 .frame(width: 200, height: 50)
                                 .background(Color(red: 0 / 255, green: 78 / 255, blue: 158 / 255))
                                 .foregroundColor(.white)
